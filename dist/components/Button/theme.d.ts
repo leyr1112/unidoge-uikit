@@ -17,6 +17,7 @@ export declare const styleVariants: {
     primary: {
         backgroundColor: string;
         color: string;
+        background: string;
     };
     secondary: {
         backgroundColor: string;
