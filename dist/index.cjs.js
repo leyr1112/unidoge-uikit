@@ -4124,7 +4124,7 @@ var links = [
 ];
 var MENU_HEIGHT = 96;
 var MENU_ENTRY_HEIGHT = 48;
-var SIDEBAR_WIDTH_FULL = 216;
+var SIDEBAR_WIDTH_FULL = 240;
 var SIDEBAR_WIDTH_REDUCED = 96;
 
 var rainbowAnimation = styled.keyframes(templateObject_1$f || (templateObject_1$f = __makeTemplateObject(["\n  0%,\n  100% {\n    background-position: 0 0;\n  }\n  50% {\n    background-position: 100% 0;\n  }\n"], ["\n  0%,\n  100% {\n    background-position: 0 0;\n  }\n  50% {\n    background-position: 100% 0;\n  }\n"])));
@@ -4134,7 +4134,7 @@ var LinkLabel = styled__default['default'].div(templateObject_2$7 || (templateOb
 });
 var MenuEntry = styled__default['default'].div(templateObject_3$3 || (templateObject_3$3 = __makeTemplateObject(["\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  height: ", "px;\n  padding: ", ";\n  font-size: ", ";\n  background-color: ", ";\n  color: ", ";\n  // box-shadow: ", ";\n  background: ", ";\n  border-radius: ", ";\n\n  a {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n  }\n\n  svg {\n    fill: ", ";\n  }\n\n  &:hover {\n    // background-color: ", ";\n    background-color: transparent;\n    svg {\n      fill: #da93e5;\n    }\n    div {\n      color: #da93e5;\n    }\n  }\n\n  // Safari fix\n  flex-shrink: 0;\n\n  &.rainbow {\n    background-clip: text;\n    animation: ", " 3s ease-in-out infinite;\n    background: ", ";\n    background-size: 400% 100%;\n  }\n"], ["\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  height: ", "px;\n  padding: ", ";\n  font-size: ", ";\n  background-color: ", ";\n  color: ", ";\n  // box-shadow: ", ";\n  background: ", ";\n  border-radius: ", ";\n\n  a {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n  }\n\n  svg {\n    fill: ", ";\n  }\n\n  &:hover {\n    // background-color: ", ";\n    background-color: transparent;\n    svg {\n      fill: #da93e5;\n    }\n    div {\n      color: #da93e5;\n    }\n  }\n\n  // Safari fix\n  flex-shrink: 0;\n\n  &.rainbow {\n    background-clip: text;\n    animation: ", " 3s ease-in-out infinite;\n    background: ", ";\n    background-size: 400% 100%;\n  }\n"])), MENU_ENTRY_HEIGHT, function (_a) {
     var secondary = _a.secondary;
-    return (secondary ? "0 32px" : "0 32px");
+    return (secondary ? "0 32px" : "0 16px");
 }, function (_a) {
     var secondary = _a.secondary;
     return (secondary ? "14px" : "16px");
@@ -4167,7 +4167,7 @@ MenuEntry.defaultProps = {
     secondary: false,
     isActive: false,
 };
-var LinkStatus = styled__default['default'](Text)(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  border-radius: ", ";\n  padding: 0 8px;\n  border: 2px solid;\n  border-color: ", ";\n  box-shadow: none;\n  color: ", ";\n  margin-left: 8px;\n"], ["\n  border-radius: ", ";\n  padding: 0 8px;\n  border: 2px solid;\n  border-color: ", ";\n  box-shadow: none;\n  color: ", ";\n  margin-left: 8px;\n"])), function (_a) {
+var LinkStatus = styled__default['default'](Text)(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  border-radius: ", ";\n  padding: 0 8px;\n  border: 2px solid;\n  border-color: ", ";\n  box-shadow: none;\n  color: ", ";\n  margin-left: 16px;\n"], ["\n  border-radius: ", ";\n  padding: 0 8px;\n  border: 2px solid;\n  border-color: ", ";\n  box-shadow: none;\n  color: ", ";\n  margin-left: 16px;\n"])), function (_a) {
     var theme = _a.theme;
     return theme.radii.default;
 }, function (_a) {
