@@ -22,3 +22,4 @@ export { default as MediumIcon } from "./Medium";
 export { default as YoutubeIcon } from "./Youtube";
 export { default as RedditIcon } from "./Reddit";
 export { default as InstagramIcon } from "./Instagram";
+export { default as LiquidityIcon } from "./Liquidity";
