@@ -331,9 +331,10 @@ var Icon$1P = function (props) {
 };
 
 var Icon$1O = function (props) {
-    return (React__default.createElement(Svg, __assign({ viewBox: "0 0 16 16" }, props),
-        React__default.createElement("circle", { cx: "8", cy: "8", r: "8", fill: "#F0B90B" }),
-        React__default.createElement("path", { d: "M5.01656 8.00006L3.79256 9.23256L2.56006 8.00006L3.79256 6.76756L5.01656 8.00006ZM8.00006 5.01656L10.1081 7.12456L11.3406 5.89206L9.23256 3.79256L8.00006 2.56006L6.76756 3.79256L4.66806 5.89206L5.90056 7.12456L8.00006 5.01656ZM12.2076 6.76756L10.9836 8.00006L12.2161 9.23256L13.4401 8.00006L12.2076 6.76756ZM8.00006 10.9836L5.89206 8.87556L4.66806 10.1081L6.77606 12.2161L8.00006 13.4401L9.23256 12.2076L11.3406 10.0996L10.1081 8.87556L8.00006 10.9836ZM8.00006 9.23256L9.23256 8.00006L8.00006 6.76756L6.76756 8.00006L8.00006 9.23256Z", fill: "#FFFDFA" })));
+    return (React__default.createElement(Svg, __assign({ viewBox: "0 0 2000 2000" }, props),
+        React__default.createElement("g", { fill: "#c2a633" },
+            React__default.createElement("path", { d: "M1024 659H881.12v281.69h224.79v117.94H881.12v281.67H1031c38.51 0 316.16 4.35 315.73-327.72S1077.44 659 1024 659z" }),
+            React__default.createElement("path", { d: "M1000 0C447.71 0 0 447.71 0 1000s447.71 1000 1000 1000 1000-447.71 1000-1000S1552.29 0 1000 0zm39.29 1540.1H677.14v-481.46H549.48V940.7h127.65V459.21h310.82c73.53 0 560.56-15.27 560.56 549.48 0 574.09-509.21 531.41-509.21 531.41z" }))));
 };
 
 var Icon$1N = function (props) {
