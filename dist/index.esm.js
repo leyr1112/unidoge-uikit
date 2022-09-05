@@ -4194,7 +4194,7 @@ var PanelBody = function (_a) {
     var handleClick = isMobile ? function () { return pushNav(false); } : undefined;
     return (React__default.createElement(Container$1, null, links.map(function (entry) {
         var Icon = Icons[entry.icon];
-        var iconElement = React__default.createElement(Icon, { width: "24px", mr: "8px", color: "#ff0e32" });
+        var iconElement = React__default.createElement(Icon, { width: "24px", mr: "16px", color: "#ff0e32" });
         var calloutClass = entry.calloutClass ? entry.calloutClass : undefined;
         if (entry.items) {
             var itemsMatchIndex = entry.items.findIndex(function (item) { return item.href === location.pathname; });
