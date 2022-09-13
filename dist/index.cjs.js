@@ -4252,7 +4252,7 @@ var templateObject_1$d;
 var PriceLink = styled__default['default'].a(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://poocoin.app/tokens/0xB67A9caA00506F88B572298bd61eE92a9375844A", target: "_blank" },
+    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://www.dextools.io/app/dogechain/pair-explorer/0x0e5f16d1d5c2f97813c9fb047ce2a24e34ef4ae9", target: "_blank" },
         React__default['default'].createElement(Icon$11, { width: "24px", mr: "8px" }),
         React__default['default'].createElement(Text, { color: "text", bold: true }, "$" + cakePriceUsd.toFixed(7)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
